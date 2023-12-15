@@ -19648,12 +19648,7 @@ var regexr = (function () {
       this._savedHash = this.hash;
     }
     newDoc(warn = true) {
-      this.load({
-        flavor: this.flavor.value,
-        expression: ".",
-        text: "Text"
-      }, warn);
-      this.expression.selectAll();
+      this.expression.value = ''
     }
     load(state, warn = true) {
       if (warn === true) {

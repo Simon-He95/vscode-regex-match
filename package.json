@@ -38,14 +38,14 @@
       "editor/context": [
         {
           "when": "editorFocus",
-          "command": "vscode-regex-match.openUrl",
+          "command": "vscode-regex-match.reg",
           "group": "6_px"
         }
       ]
     },
     "commands": [
       {
-        "command": "vscode-regex-match.openUrl",
+        "command": "vscode-regex-match.reg",
         "title": "vscode regex match"
       }
     ]
